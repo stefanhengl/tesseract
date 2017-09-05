@@ -392,6 +392,7 @@ ColumnFinder* Tesseract::SetupPageSegAndDetectOrientation(
     }
     osd_blobs.shallow_clear();
     finder->CorrectOrientation(to_block, vertical_text, osd_orientation);
+    printf("\nOrientation:%d\n", osd_orientation);
   }
 
   return finder;

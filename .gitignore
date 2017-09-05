@@ -85,3 +85,4 @@ kernel*.bin
 
 # GoogleTest
 googletest
+.idea
